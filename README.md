@@ -14,6 +14,7 @@ A serverless, secure, and low-latency cloud portfolio hosted on Amazon Web Servi
 3.Origin Access Control (OAC): Secures communication between CloudFront and S3 using AWS Signature Version 4 (SigV4), preventing any direct access to the storage bucket.
 4.Least-Privilege Bucket Policy: An IAM bucket policy restricts read permissions (s3:GetObject) strictly to the CloudFront distribution ARN, mitigating confused deputy risks.
 
+
 *Key Security Features
 
 1.Zero Direct Public S3 Access: The S3 bucket rejects all non-CloudFront requests, preventing data exposure.
