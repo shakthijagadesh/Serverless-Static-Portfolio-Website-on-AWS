@@ -5,10 +5,8 @@ A serverless, secure, and low-latency cloud portfolio hosted on Amazon Web Servi
 
 [ Visitor Browser ] 
         ──>
-        
 [ Amazon CloudFront CDN ]  
-        ──>
-        
+        ──>  
 [ Private Amazon S3 Bucket ] 
 
 1.Amazon S3: Stores static site assets (index.html) in a private bucket with Block Public Access fully enabled.
