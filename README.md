@@ -40,5 +40,3 @@ A serverless, secure, and low-latency cloud portfolio hosted on Amazon Web Servi
 
 5.Edge Cache Management: Applied cache invalidation paths (/*) for immediate updates.
 
-4.Policy Enforcement: Attached the generated OAC JSON bucket policy to S3.
-5.Edge Cache Management: Applied cache invalidation paths (/*) for immediate updates.
