@@ -31,7 +31,14 @@ A serverless, secure, and low-latency cloud portfolio hosted on Amazon Web Servi
 * Deployment Steps
   
 1.Storage Setup: Created S3 bucket shakthi-portfolio-site-2026 with private access.
+
 2.File Upload: Uploaded production index.html.
+
 3.CDN Creation: Configured CloudFront distribution pointing to S3 origin with OAC authentication.
+
+4.Policy Enforcement: Attached the generated OAC JSON bucket policy to S3.
+
+5.Edge Cache Management: Applied cache invalidation paths (/*) for immediate updates.
+
 4.Policy Enforcement: Attached the generated OAC JSON bucket policy to S3.
 5.Edge Cache Management: Applied cache invalidation paths (/*) for immediate updates.
